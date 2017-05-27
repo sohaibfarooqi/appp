@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Clock, Toggle, LoginControl} from './components';
+import {Clock, Toggle, LoginControl, NumberList} from './components';
 /**
 Main Application component. Encapsulate all other components.
 Includes Main application banner, logo and other components
@@ -20,6 +20,7 @@ export class App extends Component {
         <Clock />
         <Toggle />
         <LoginControl />
+        <NumberList numbers={[1,2,3,4,5]} />
         </p>
       </div>
     );
