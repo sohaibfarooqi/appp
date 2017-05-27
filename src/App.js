@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Clock, Toggle} from './components';
+import {Clock, Toggle, LoginControl} from './components';
 /**
 Main Application component. Encapsulate all other components.
 Includes Main application banner, logo and other components
@@ -19,6 +19,7 @@ export class App extends Component {
         <p className="App-intro">
         <Clock />
         <Toggle />
+        <LoginControl />
         </p>
       </div>
     );
