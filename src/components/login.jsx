@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 /**
 Helper functions for Login Control
+
+Docs Link: https://facebook.github.io/react/docs/conditional-rendering.html
 **/
 function LoginButton(props){
     return (

@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 Reservation Component that binds multiple input component.
 Controls the state of each individual component with same
 handleInputChange method through event name.
+
+Docs Link: https://facebook.github.io/react/docs/forms.html
 **/
 class ReservationMultiInput extends Component{
   

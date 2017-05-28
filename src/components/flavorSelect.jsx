@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 /**
 This component implements select view 
 and provides two events i.e onChange, onSubmit.
+
+Docs Link: https://facebook.github.io/react/docs/forms.html
 **/
 class FlavorSelectComponent extends Component{
   

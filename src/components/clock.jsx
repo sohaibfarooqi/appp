@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 
 /**
 Clock Component Class. Represent Clock in Real time.
-Format HH.MM.SS
+Format HH.MM.SS.
+
+Docs Link: https://facebook.github.io/react/docs/state-and-lifecycle.html
 **/
 class Clock extends Component{
   

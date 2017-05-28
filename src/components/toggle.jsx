@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 /**
 Implements clickable toggle button component.
+
+Docs Link: https://facebook.github.io/react/docs/handling-events.html
 **/
 class Toggle extends Component{
   

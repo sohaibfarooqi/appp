@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 /**
 Helper functions to TemperatureInput component
 and Calculator Component.
+
+Docs Link: https://facebook.github.io/react/docs/lifting-state-up.html
 **/
 
 function BoilingVerdict(props){
