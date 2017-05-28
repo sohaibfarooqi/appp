@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Clock, Toggle, LoginControl, NumberList} from './components';
+import {Clock, Toggle, LoginComponent, NumberListComponent, FlavorSelectComponent, ReservationMultiInput, Calculator} from './components';
 /**
 Main Application component. Encapsulate all other components.
 Includes Main application banner, logo and other components
@@ -19,8 +19,11 @@ export class App extends Component {
         <p className="App-intro">
         <Clock />
         <Toggle />
-        <LoginControl />
-        <NumberList numbers={[1,2,3,4,5]} />
+        <LoginComponent />
+        <FlavorSelectComponent />
+        <ReservationMultiInput />
+        <Calculator />
+        <NumberListComponent numbers={[1,2,3,4,5]} />
         </p>
       </div>
     );
